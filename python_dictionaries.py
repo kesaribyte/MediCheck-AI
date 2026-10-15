@@ -1,6 +1,3 @@
-
-# Python Dictionaries
-
 # 1. Create a dictionary
 symptoms = {
     "fever": True,
