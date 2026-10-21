@@ -26,13 +26,21 @@ class SymptomAnswers(BaseModel):
     cough: bool
     headache: bool
     sore_throat: bool
+    fatigue: bool
+    body_aches: bool
+    runny_nose: bool
+    sneezing: bool
+    nausea: bool
+    vomiting: bool
+    diarrhea: bool
+    dizziness: bool
+    chills: bool
+    shortness_of_breath: bool
 
 
 @app.get("/")
 def home():
-    return {
-        "message": "MediCheck AI backend is running!"
-    }
+    return {"message": "MediCheck AI backend is running!"}
 
 
 @app.post("/assess")
