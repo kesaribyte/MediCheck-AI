@@ -3,11 +3,22 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Activity, ArrowLeft, ArrowRight } from "lucide-react";
 
+
 const questions = [
   { key: "fever", label: "Do you have a fever?" },
   { key: "cough", label: "Do you have a cough?" },
   { key: "headache", label: "Do you have a headache?" },
   { key: "sore_throat", label: "Do you have a sore throat?" },
+  { key: "fatigue", label: "Are you feeling unusually tired?" },
+  { key: "body_aches", label: "Do you have body aches?" },
+  { key: "runny_nose", label: "Do you have a runny nose?" },
+  { key: "sneezing", label: "Are you sneezing?" },
+  { key: "nausea", label: "Do you feel nauseated?" },
+  { key: "vomiting", label: "Have you vomited?" },
+  { key: "diarrhea", label: "Do you have diarrhea?" },
+  { key: "dizziness", label: "Do you feel dizzy?" },
+  { key: "chills", label: "Do you have chills?" },
+  { key: "shortness_of_breath", label: "Are you experiencing shortness of breath?" },
 ];
 
 function Assessment() {
